@@ -15,13 +15,11 @@
     <p>Hallo!!</p>
     <script type="text/javascript" charset="utf-8">
         if (window.navigator.userAgent.indexOf('iPhone') != -1) {
-            // window.location.href = "app-scipio://";
-            // window.location.href = "scipio://";
-            // window.location.href = "scipio-app://";
-            // window.location.href = "scipioapp://";
-            // window.location.href = "hagru-scipio://";
-            window.location.href = "scipio_app://";
-            // window.location.href = "app_scipio://";
+            setTimeout(function () { window.location.href = "app-scipio://"; },4000);
+            setTimeout(function () {  window.location.href = "scipio://";},3000);
+            setTimeout(function () {  window.location.href = "scipio-app://";},2000);
+            setTimeout(function () {  window.location.href = "scipioapp://";},1000);
+            window.location.href = "hagru-scipio://";
             
         } 
         else {
