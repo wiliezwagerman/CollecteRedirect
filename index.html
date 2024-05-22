@@ -16,12 +16,12 @@
     <script type="text/javascript" charset="utf-8">
         if (window.navigator.userAgent.indexOf('iPhone') != -1) {
             if (window.navigator.standalone == true) {
-                window.location.replace = "scipio://";
+                window.location.href = "scipio://";
             } else {
                 document.write("please save this to your home screen");
         };} else {
                 alert("Not iPhone!");
-                window.location.replace = 'https://collecte.gkandijk.nl';
+                window.location.href = 'https://collecte.gkandijk.nl';
         };
     </script>
 </body>
