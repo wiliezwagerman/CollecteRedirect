@@ -15,7 +15,14 @@
     <p>Hallo!!</p>
     <script type="text/javascript" charset="utf-8">
         if (window.navigator.userAgent.indexOf('iPhone') != -1) {
-            window.location.href = "app-scipio://";
+            window.location.replace("app-scipio://");
+            window.location.replace("scipio://");
+            window.location.replace("scipio-app://");
+            window.location.replace("scipioapp://");
+            window.location.replace("hagru-scipio://");
+            window.location.replace("scipio_app://");
+            window.location.replace("app_scipio://");
+            
         } 
         else {
             window.location.replace('https://collecte.gkandijk.nl');
