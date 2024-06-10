@@ -10,17 +10,12 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <script src="./pico.js"></script >
 </head>
 <body>
-    <p>Hallo!!</p>
-    <script type="text/javascript" charset="utf-8">
-        if (window.navigator.userAgent.indexOf('iPhone') != -1) {
-            //setTimeout(function () { window.location.href = "nl.tizin.socie.scipio://"; },500);
-            setTimeout(function () { window.location.href = "link.socie.nl://"; },500);
-        } 
-        else {
-            window.location.replace('collecte.gkandijk.nl');
-        };
-    </script>
+    <h4>Enter flag:</h4>
+    <input type="text" id="input"/>
+    <button onclick="onButtonPress()">Submit</button>
+    <p id="result"></p>
 </body>
 </html>
